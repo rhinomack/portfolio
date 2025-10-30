@@ -139,7 +139,7 @@ footer {
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   nav ul {
@@ -185,4 +185,9 @@ footer {
     font-size: 1rem;
   }
 }
+section h2 {
+  text-align: left;
+}
+
+
 
