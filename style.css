@@ -43,9 +43,6 @@ nav {
   gap: 10px;
 }
 
-nav h1 {
-  font-size: 1.5rem;
-}
 
 
 
@@ -68,10 +65,10 @@ section {
 
 #hero {
   background-color: #e8f0fe;
-  padding: 100px 20px;
+  padding: 10px 20px;
 }
 
-#hero .btn {
+#hero .btn {						
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
@@ -177,9 +174,7 @@ footer {
     font-size: 1rem;
   }
 }
-section h2 {
-  text-align: left;
-}
+
 
 
 .project-images {
@@ -203,9 +198,41 @@ section h2 {
 
 h1 {
   color: #500099;
+  font-size: 1.91rem;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+/* Make nav h1 (Obras del Rhino) unique */
+nav h1 {
+  font-size: 2.5rem;
+  color: #002244;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 2px; */
+}
+
+/* Make section h2s (About Me, etc.) styled differently */
+section h2 {
+  font-size: 1.7rem;
+  color: #006666;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.projettes-audio-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap; /* allows stacking on small screens */
+  padding: 60px 20px;
+}
+
+.projettes-audio-wrapper section {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
