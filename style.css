@@ -236,3 +236,90 @@ section h2 {
   flex: 1 1 400px;
   max-width: 600px;
 }
+
+
+/* Shared 2-column layout for both rows */
+.projettes-audio-wrapper,
+.two-col-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+/* Make each column flexible but max out at a nice width */
+.projettes-audio-wrapper section,
+.two-col-row section {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+/* Optional: add background/border for visual separation 
+.projettes-audio-wrapper section,
+.two-col-row section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+} */
+
+.staggered-wrapper {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 400px;
+  gap: 40px;
+  max-width: 600px;
+}
+
+.spacer {
+  height: 60px; /* Adjust this to control vertical offset of About */
+}
+
+.staggered-wrapper section {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.layout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 0;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+#projettes {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#AudioChops {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
+#contact {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#about {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: end;
+}

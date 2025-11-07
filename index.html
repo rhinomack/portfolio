@@ -1,231 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Obras del Rhino</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
-
 
 <body>
   <nav>
     <h1>Obras del Rhino</h1>
     <ul>
-     <!--  <li><a href="#hero">Home</a></li> -->
       <li><a href="#projettes">Projettes</a></li>
       <li><a href="#AudioChops">Audio Chops</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
- 
-  <!-- Hero 
-  <section id="hero">
-    <h2>hey its rhino</h2>
-      <p>I’m new to web development and learning how to build awesome websites.</p>
-      <p>Just me messin' around during my free 3 month trials.</p> -->
 
-<!-- Projettes + Audio Side by Side -->
-<div class="projettes-audio-wrapper">
-  <section id="projettes">
-    <h2>Projettes</h2>
- <h3>Click me I bounce</h3>
- <!--  <a href="https://projectrhino.netlify.app/" target="_blank">My website!</a> | -->
-      <br>
+  <div class="layout-grid">
+    <!-- Projettes -->
+    <section id="projettes">
+      <h2>Projettes</h2>
+      <h3>Click me I bounce</h3>
       <div class="project-images">
-  <div class="img-wrapper">
-    <img src="images/rynano-try-1-copy.jpeg" alt="Jumping Friends" width="200" />
-  </div>
-  <div class="img-wrapper">
-    <img src="images/sisterswithoutline.png" alt="Sisters With Outline" width="200" />
-  </div>
-  <div class="img-wrapper">
-    <img src="images/funfrens.png" alt="Jumping Friends" width="600" />
-  </div>
-  <div class="img-wrapper">
-    <img src="images/jdc.png" alt="Turtle Stroll" width="200" />
-  </div>
-</div>
+        <div class="img-wrapper">
+          <img src="images/rynano-try-1-copy.jpeg" alt="Jumping Friends" width="200" />
+        </div>
+        <div class="img-wrapper">
+          <img src="images/sisterswithoutline.png" alt="Sisters With Outline" width="200" />
+        </div>
+        <div class="img-wrapper">
+          <img src="images/funfrens.png" alt="Fun Friends" width="600" />
+        </div>
+        <div class="img-wrapper">
+          <img src="images/jdc.png" alt="Turtle Stroll" width="200" />
+        </div>
+      </div>
+    </section>
 
-      <br>
-     <!-- <a href="https://github.com/rhinomack/portfolio" target="_blank">GitHub</a> -->
-  </section>
-
-  <section id="AudioChops">
-    <h2>Audio Chops</h2>
-    <p>Click to listen:</p>
-<br>
-
-      <p>florian spins.mp3 ft mac miller</p>
-<audio controls>
-    <source src="chops/florianspins.mp3.mp3" type="audio/mpeg">
-    Your browser does not support the audio element. 
-  </audio>
-
-<p>idk indie ska ?</p>
-<audio controls>
-    <source src="chops/hella_good_x_invisible_string.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-<p>pop grande</p>
-<audio controls>
-    <source src="chops/not_bad.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-
-<p>Miss Grande goes low octave</p>
-<audio controls>
-    <source src="chops/slowedariana.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-
-<p>Ariana Grande transition to Sofi Tukker circa 2021 maybe</p>
-<audio controls>
-    <source src="chops/first_attempt.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-<p>bouncy Ariana vocals</p>
-<audio controls>
-    <source src="chops/bouncey.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-  <p>Mine - Kelly Clarkson x Nasty - Ariana Grande</p>
-<audio controls>
-    <source src="chops/mine_x_nasty_kinda_fun.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>  
-</section>
-</div>
-    
- <!-- Audio Chops 
-  <section id="AudioChops">
-    <h2>Audio Chops</h2>
-
+    <!-- Audio Chops -->
+    <section id="AudioChops">
+      <h2>Audio Chops</h2>
       <p>Click to listen:</p>
-<br>
-
       <p>florian spins.mp3 ft mac miller</p>
-<audio controls>
-    <source src="chops/florianspins.mp3.mp3" type="audio/mpeg">
-    Your browser does not support the audio element. 
-  </audio>
+      <audio controls><source src="chops/florianspins.mp3.mp3" type="audio/mpeg"></audio>
 
-<p>idk indie ska ?</p>
-<audio controls>
-    <source src="chops/hella_good_x_invisible_string.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+      <p>idk indie ska ?</p>
+      <audio controls><source src="chops/hella_good_x_invisible_string.mp3" type="audio/mpeg"></audio>
 
-<p>pop grande</p>
-<audio controls>
-    <source src="chops/not_bad.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+      <p>pop grande</p>
+      <audio controls><source src="chops/not_bad.mp3" type="audio/mpeg"></audio>
 
+      <p>Miss Grande goes low octave</p>
+      <audio controls><source src="chops/slowedariana.mp3" type="audio/mpeg"></audio>
 
-<p>Miss Grande goes low octave</p>
-<audio controls>
-    <source src="chops/slowedariana.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+      <p>Ariana Grande transition to Sofi Tukker circa 2021 maybe</p>
+      <audio controls><source src="chops/first_attempt.mp3" type="audio/mpeg"></audio>
 
+      <p>bouncy Ariana vocals</p>
+      <audio controls><source src="chops/bouncey.mp3" type="audio/mpeg"></audio>
 
-<p>Ariana Grande transition to Sofi Tukker circa 2021 maybe</p>
-<audio controls>
-    <source src="chops/first_attempt.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+      <p>Mine - Kelly Clarkson x Nasty - Ariana Grande</p>
+      <audio controls><source src="chops/mine_x_nasty_kinda_fun.mp3" type="audio/mpeg"></audio>
+    </section>
 
-<p>bouncy Ariana vocals</p>
-<audio controls>
-    <source src="chops/bouncey.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <p><input type="text" name="name" placeholder="Your Name" required></p>
+        <p><input type="email" name="email" placeholder="Your eemale" required></p>
+        <p><textarea name="message" placeholder="Your Message" required></textarea></p>
+        <p><button type="submit">Send</button></p>
+      </form>
+    </section>
 
-  <p>Mine - Kelly Clarkson x Nasty - Ariana Grande</p>
-<audio controls>
-    <source src="chops/mine_x_nasty_kinda_fun.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-
-</section>-->
-
- 
-
- <!-- projettes -->
-  <section id="projettes">
-    <h2>Projettes</h2>
- <h3>Random PhotoShop</h3>
- <!--  <a href="https://projectrhino.netlify.app/" target="_blank">My website!</a> | -->
-      <br>
-      <div class="project-images">
-  <div class="img-wrapper">
-    <img src="images/rynano-try-1-copy.jpeg" alt="Jumping Friends" width="200" />
+    <!-- About (aligned to bottom of AudioChops) -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I love languages and just realized coding is one too. I’m diving into frontend development.</p>
+    </section>
   </div>
-  <div class="img-wrapper">
-    <img src="images/sisterswithoutline.png" alt="Sisters With Outline" width="200" />
-  </div>
-  <div class="img-wrapper">
-    <img src="images/funfrens.png" alt="Jumping Friends" width="600" />
-  </div>
-  <div class="img-wrapper">
-    <img src="images/jdc.png" alt="Turtle Stroll" width="200" />
-  </div>
-</div>
-
-      <br>
-     <!-- <a href="https://github.com/rhinomack/portfolio" target="_blank">GitHub</a> -->
-  </section>
-
-    <div class="project">
-    
-      
-    </div>
-
-    <div class="project">
-      <h3>To Do List</h3>
-      <p>A simple and clean todo list app that stores data in localStorage.</p>
-    <a href="https://your-live-link.com" target="_blank">Live Demo</a> |
-    <a href="https://percyjackson.com" target="_blank">GitHub</a>
-  </div>
-
-  <div class="project">
-    <h3>Coming Soon!</h3>
-    <p>This space will soon host my next project — stay tuned!</p>
-  </div>
-</section>
-
- <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I love languages and just realized coding is one too. I’m diving into frontend development.</p>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-  <h2>Contact Me</h2>
-  <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact">
-    <p>
-      <input type="text" name="name" placeholder="Your Name" required>
-    </p>
-    <p>
-      <input type="email" name="email" placeholder="Your eemale" required>
-    </p>
-    <p>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
-</section>
-
+</body>
+</html>
