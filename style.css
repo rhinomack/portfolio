@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f2j9s7;
+  background-color: #c9fbe4;
   color: #767;
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
@@ -40,7 +40,7 @@ section {
 }
 
 nav {
-  background-color: #007bfb;
+  background-color: #a1c9b6;
   color: #fff;
   padding: 20px;
   display: flex;
@@ -212,4 +212,5 @@ section h2 {
 h1 {
   color: #500099;
 }
+
 
