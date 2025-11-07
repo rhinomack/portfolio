@@ -323,3 +323,13 @@ section h2 {
   grid-row: 2;
   align-self: end;
 }
+@media (max-width: 768px) {
+  .layout-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .layout-grid > * {
+    width: 100%;
+  }
+}
