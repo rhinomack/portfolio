@@ -313,14 +313,20 @@ section h2 {
   grid-row: 1 / 3;
 }
 
+#Chalkboard {
+  grid-column: 1 / 3;
+  grid row: 1 / 3;
+}
+
+ 
 #contact {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 4;
 }
 
 #about {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 4;
   align-self: end;
 }
 @media (max-width: 768px) {
